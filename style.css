@@ -20,6 +20,36 @@ body {
     align-items: center;
 }
 
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 70%;
+    height: 70%;
+    gap: 5px;
+}
+
+.box {
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: lightblue;
+    border: 1px solid darkblue;
+}
+
+.box h4 {
+    font-size: 1.25rem;
+
+}
+
+.box ul {
+    text-align: start;
+    width: 70%;
+    border: 1px solid red;
+}
+
 .rates {
     text-align: center;
 }
@@ -27,7 +57,6 @@ body {
 .rates p {
     padding: 0;
     margin: 3px;
-    font-size: .85rem;
 }
 
 
