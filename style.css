@@ -12,6 +12,24 @@ body {
     padding: 0;
 }
 
+/*** SERVICES STYLES ***/
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rates {
+    text-align: center;
+}
+
+.rates p {
+    padding: 0;
+    margin: 3px;
+    font-size: .85rem;
+}
+
 
 /*** TESTIMONIAL STYLES ***/
 .testimonials {
@@ -42,7 +60,8 @@ footer {
     justify-content: space-between;
     align-items: end;
     flex-direction: row;
-    font-size: .75em;
+    font-size: .75rem;
+    margin: 0;
     padding: 10px;
 }
 
