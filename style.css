@@ -65,6 +65,13 @@ body {
     text-align: center;
 }
 
+.testimonials div {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+
+}
+
 .testimonials .italicize {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
