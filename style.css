@@ -17,21 +17,33 @@ h2 {
 }
 /*********************/
 
+/*** NAVBAR STYLES ***/
+nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    background-color: lightpink;
+    margin: 0;
+}
+/*********************/
+
+/*** HERO STYLES ***/
+.hero-content {
+    width: 100vw;
+    height: 40rem;
+    background-image: url("https://getwallpapers.com/wallpaper/full/b/3/7/700270-amazing-spring-theme-wallpaper-1920x1200.jpg");
+    margin: 0;
+}
+/*********************/
+
 /*** SERVICES STYLES ***/
 .services {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.services h2 {
-    margin-bottom: 10px;
-}
-
-.services p {
-    font-size: 1.4rem;
-    margin-bottom: 20px;
 }
 
 .services-grid {
