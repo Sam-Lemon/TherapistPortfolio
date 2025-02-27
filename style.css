@@ -12,6 +12,11 @@ body {
     padding: 0;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+/*********************/
+
 /*** SERVICES STYLES ***/
 .services {
     display: flex;
@@ -20,13 +25,21 @@ body {
     align-items: center;
 }
 
+.services h2 {
+    margin-bottom: 10px;
+}
+
+.services p {
+    font-size: 1.4rem;
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 70%;
-    height: 70%;
-    gap: 5px;
+    width: 40%;
+    gap: 20px 30px;
+    margin: 10px;
 }
 
 .box {
@@ -36,7 +49,6 @@ body {
     justify-content: center;
     flex-direction: column;
     background-color: lightblue;
-    border: 1px solid darkblue;
 }
 
 .box h4 {
@@ -58,18 +70,22 @@ body {
     padding: 0;
     margin: 3px;
 }
-
+/*********************/
 
 /*** TESTIMONIAL STYLES ***/
 .testimonials {
     text-align: center;
+    margin-bottom: 150px;
+}
+
+.testimonials h2 {
+    margin: 150px auto 20px;
 }
 
 .testimonials div {
     text-align: center;
     width: 60%;
     margin: auto;
-
 }
 
 .testimonials .italicize {
@@ -84,7 +100,7 @@ body {
     justify-content: end;
     padding-right: 50px;
 }
-
+/*********************/
 
 /*** FOOTER STYLES ***/
 footer {
@@ -113,3 +129,4 @@ footer {
 .address {
     line-height: .75px;
 }
+/*********************/
