@@ -10,7 +10,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to top right,  #77a9b4d4, #f7e0aa95);
+    background: linear-gradient(to top right,  #55a2bf, #bed2c9);
 }
 
 h2 {
@@ -23,21 +23,29 @@ nav {
     display: flex;
     justify-content: end;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100px;
-    background-color: lightpink;
+    background-color: none;
     margin: 0;
 }
 /*********************/
 
 /*** HERO STYLES ***/
 .hero-content {
-    width: 100vw;
+    width: 100%;
     height: 40rem;
-    background-image: url("https://getwallpapers.com/wallpaper/full/b/3/7/700270-amazing-spring-theme-wallpaper-1920x1200.jpg");
     margin: 0;
 }
 /*********************/
+
+/*** ABOUT STYLES ***/
+.about img {
+    border-radius: 50%;
+    width: 0px;
+    height: 250px;
+}
+/*********************/
+
 
 /*** SERVICES STYLES ***/
 .services {
@@ -119,9 +127,10 @@ nav {
 
 /*** FOOTER STYLES ***/
 footer {
-    width: 100vw;
-    height: 100px;
-    background: lightgreen;
+    width: 100%;
+    height: 50px;
+    background: none;
+    border-top: 3px solid black;
     color: black;
     display: flex;
     justify-content: space-between;
@@ -129,7 +138,8 @@ footer {
     flex-direction: row;
     font-size: .75rem;
     margin: 0;
-    padding: 10px;
+    padding: 15px;
+    position: relative;
 }
 
 .social-links {
@@ -141,7 +151,15 @@ footer {
     padding: 5px;
 }
 
+footer a {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .address {
     line-height: .75px;
+    display: flex;
+    align-items: end;
 }
 /*********************/
