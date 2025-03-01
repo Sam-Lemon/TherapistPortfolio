@@ -3,6 +3,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+.dancing-script {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: .5px;
+  }
+
 .italicize {
     font-style: italic;
 }
@@ -102,13 +111,15 @@ nav {
 }
 
 .testimonials h2 {
-    margin: 150px auto 20px;
+    margin: 150px auto 0;
+    font-size: 5rem;
+    letter-spacing: 5px;
 }
 
 .testimonials div {
     text-align: center;
     width: 60%;
-    margin: auto;
+    margin: 75px auto 100px;
 }
 
 .testimonials .italicize {
@@ -116,12 +127,13 @@ nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 80px;
     padding-right: 80px;
+    line-height: 40px;
 }
 
 .reviewer-name {
     display: flex;
     justify-content: end;
-    padding-right: 50px;
+    margin-right: 175px;
 }
 /*********************/
 
