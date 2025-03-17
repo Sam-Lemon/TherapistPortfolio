@@ -41,7 +41,7 @@ nav {
     background-size: cover;
     background-position: center;
     text-align: center;
-    color: white;
+    color: #e6e2e6;
 }
 
 
@@ -63,17 +63,38 @@ nav {
     background-color: #a1a9ad9c;
     border-radius: 5px;
     padding: 10px;
+    margin: 0 auto;
 }
 
 .hero-content button {
     text-align: center;
-    background-color: pink;
-    color: darkred;
-    border: 2px solid red;
+    background-color: #80a99a;
+    /* background-color: #845c7d; */
+    color: #e6e2e6;
+    border: none;
     border-radius: 5px;
+    box-shadow: 3px 2px #5a615f;
     padding: 10px;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    text-shadow: 1px 1px #788589;
+
+}
+
+.hero-content button:hover {
+    background-color: #5C8477;
+}
+
+.hero-content button:active {
+    background-color: #4f7268;
+    box-shadow: inset 2px 2px 5px rgba(0,0,0,0.2);
+    transform: scale(0.98);
+}
+
+.hero-content button:focus {
+    outline: 3px solid #bfd8cc;
+    outline-offset: 2px;
+    box-shadow: 0 0 8px rgba(191, 216, 204, 0.75);
 }
 /*********************/
 
@@ -144,7 +165,7 @@ nav {
 
 .rates {
     text-align: center;
-    margin-top: 20px;
+    margin: 40px;
 }
 
 .rates p {
